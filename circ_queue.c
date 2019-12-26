@@ -30,7 +30,7 @@ int delete(int q[],int *f,int *r)
 	{
 		*f=-1;
 		*r==-1;
-		printf("queue underflow\n");
+		
 	}
 	else
 		*f=(*f+1)%S;
